@@ -1,0 +1,35 @@
+:root {
+  --triangle:url('data:image/svg+xml,\
+<svg xmlns="http://www.w3.org/2000/svg" height="125" width="125" ><path  d="M75 25 L37 100 L112 100 Z" style="fill:none;stroke:orange;stroke-width:20; stroke-dasharray: 200px,50px; stroke-dashoffset: 20; animation: move 3.8s linear infinite; " /><style>@keyframes move {0%{stroke-dashoffset: 20px;}100%{stroke-dashoffset: 250px;}}</style>\
+</svg>');
+}
+
+.h1 {
+    background: var(--triangle) no-repeat ;
+
+}
+/*
+.path {
+        fill: transparent;
+        stroke: #e98457;
+        stroke-width: 70;
+        stroke-dasharray: 300px, 10px;
+        stroke-dashoffset: 70;
+        animation: move 3.8s linear infinite;
+
+    }
+
+@keyframes move {
+    0% {
+        stroke-dashoffset: 240px;
+    }
+
+    50% {
+        stroke-dashoffset: 70px;
+    }
+
+    100% {
+        stroke-dashoffset: 240px;
+    }
+}
+*/
